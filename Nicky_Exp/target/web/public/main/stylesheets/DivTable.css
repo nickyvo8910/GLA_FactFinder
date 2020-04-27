@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+	
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: none;
+	display: table-cell;
+	padding: 3px 10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+	
+}
+
+<style type="text/css">
+.nickytg {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-color: #aabcfe;
+	margin: 0px auto;
+}
+
+.nickytg td {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 0px;
+	overflow: hidden;
+	word-break: normal;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-color: #aabcfe;
+	color: #669;
+	background-color: #e8edff;
+}
+
+.nickytg th {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 0px;
+	overflow: hidden;
+	word-break: normal;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-color: #aabcfe;
+	color: #039;
+	background-color: #b9c9fe;
+}
+
+.nickytg .tg-phtq {
+	background-color: #D2E4FC;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+
+.nickytg .tg-fymr {
+	font-weight: bold;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+
+.nickytg .tg-f8tv {
+	font-style: italic;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+
+.nickytg .tg-uog8 {
+	text-decoration: underline;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+
+.nickytg .tg-6gib {
+	background-color: #D2E4FC;
+	font-weight: bold;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+
+.nickytg .tg-0pky {
+	width:30%;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top
+}
+
+@media screen and (max-width: 767px) {
+	.nickytg {
+		width: auto !important;
+	}
+	.nickytg col {
+		width: auto !important;
+	}
+	.nickytg-wrap {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		margin: auto 0px;
+	}
+}
+</style>

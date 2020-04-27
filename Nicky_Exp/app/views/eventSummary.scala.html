@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+@import play.mvc.Http.Context.Implicit._
+
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Fact Extraction Web App</title>
+<link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")">
+<link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/all.min.css")">
+<link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/open-iconic-bootstrap.min.css")">
+<link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/DivTable.css")">
+
+
+<link href="https://fonts.googleapis.com/css?family=Varela+Round"
+	rel="stylesheet">
+<link
+	href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+	rel="stylesheet">
+
+<script src="@routes.Assets.versioned("javascripts/jquery.min.js")"></script>
+<script src="@routes.Assets.versioned("javascripts/jquery.easing.min.js")"></script>
+<script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+<script src="@routes.Assets.versioned("javascripts/all.min.js")"></script>
+<script src="@routes.Assets.versioned("javascripts/canvasjs.min.js")"></script>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body id="myBody"
+	wsdata="@routes.HomeController.socket.webSocketURL(request)"
+	onload="initalize();">
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<h4 style="font-family: 'Varela Round'">Welcome to Fact
+							Extraction Web App / Event Summary</h4>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="searchbar" class="col-md-12">
+				<div class="input-group mb-3">
+					<div class="input-group-append">
+						<a href="/" class="btn btn-primary"> Back to Home</a>
+					</div>
+					<button type="button" class="btn btn-primary"
+						onclick="fetchEvent()">Fetch Details</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="nickytg-wrap">
+			<table class="table table-striped" id="eventTable"
+				style="display: inline-table; width: 100%;">
+				<tbody id="resultTableBody" style="display: none; width: 100%; align-content: center;">
+					<tr>
+						<th class="nickytg-fymr"  style="display: flex;"></th>
+						<th class="nickytg-f8tv"></th>
+						<th class="nickytg-uog8"></th>
+					</tr>
+					<tr>
+						<th class="nickytg-fymr">More info : </th>
+						<td class="nickytg-0pky" colspan="2">
+							<div id="wikiTag"></div> <br>
+						</td>
+
+					</tr>
+
+					<tr>
+						<th class="nickytg-6gib">Damage captured :</th>
+						<td class="nickytg-6gib">Total Death: ###</td>
+						<td class="nickytg-6gib">Total Injury: ###</td>
+					</tr>
+
+
+					<tr>
+						<td class="nickytg-fymr">Overall Visualisation:</td>
+						<td class="nickytg-0pky" colspan="2"><div id="chartContainer1"
+								style="height: 370px; width: inherit;"></div></td>
+						
+					</tr>
+					<tr>
+						<td class="nickytg-fymr">Overall Visualisation:</td>
+						
+						<td class="nickytg-0pky" colspan="2"><div id="chartContainer2"
+								style="height: 370px; width: inherit;"></div></td>
+					</tr>
+					<tr>
+						<td class="nickytg-fymr">Overtime Visualisation:</td>
+						<td class="nickytg-0pky" colspan="2"><div id="chartContainer3"
+								style="height: 370px; width: inherit;"></div></td>
+					
+					</tr>
+					<tr>
+						<td class="nickytg-fymr">Overtime Visualisation:</td>
+		
+						<td class="nickytg-0pky"colspan="2"><div id="chartContainer4"
+								style="height: 370px; width: inherit;"></div></td>
+					</tr>
+
+					<tr id="cloneStatementElement" style="display:none">
+						<td class="nickytg-fymr">Statements:</td>
+						<td class="nickytg-0pky">&lt;entity 1&gt;<br></td>
+						<td class="nickytg-0pky" colspan="2">&lt;statements1&gt;</td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		function initalize() {
+			openWebSocketConnection();
+		}
+
+		var ws; // websocket to the backend
+
+		// ######################################################################################
+		// Top level control logic
+		// ######################################################################################
+
+		function openWebSocketConnection() {
+
+			var wsURL = document.getElementById("myBody")
+					.getAttribute("wsdata");
+
+			ws = new WebSocket(wsURL);
+			ws.onmessage = function(event) {
+				var message;
+				var nodeData;
+				var sameCatEvents;
+				var sameYrEvents;
+				message = JSON.parse(event.data);
+				switch (message.messageType) {
+				case "init":
+					break;
+				case "queryResult":
+					nodeData = JSON.parse(message["nodeData"]);
+					updatePageContent(nodeData);
+					break;
+				case "sameCatMsg":
+					sameCatEvents = JSON.parse(message["sameCatEvents"]);
+					makeGraph1_2(sameCatEvents);
+					break;
+				case "sameYrMsg":
+					sameYrEvents = JSON.parse(message["sameYrEvents"]);
+					makeGraph2(sameYrEvents);
+					break;
+				default:
+					return console.log(message);
+
+				}
+			};
+			ws.onclose = function(event) {
+				// do nothing
+			};
+		}
+
+		function updateStatementEntities(eventEntities){
+			//Create a HTML Table element.
+			var tableBody = document.getElementById("resultTableBody");
+			var tableRow = document.getElementById("cloneStatementElement");
+
+			for(key in eventEntities){
+
+				var newRow = tableRow.cloneNode(true);
+				newRow.id = "clonedStatementElement";
+				newRow.style.display = "";
+
+				var crrKey = key;
+				var value =eventEntities[key];
+				var testArr = Array.from(new Set(value.split('\n')));
+			    var valueArr =testArr.join("<br/>");
+
+				console.log("crrKey: "+ crrKey +" --- Value: "+ valueArr);
+				newRow.children[1].innerHTML = crrKey.toString();
+				newRow.children[2].innerHTML = valueArr.toString();
+
+				tableBody.appendChild(newRow);
+			};
+
+
+
+		}
+
+		function updatePageContent(message){
+			var tableBody = document.getElementById("eventTable").children[0];
+			tableBody.style.display = "inline-table";
+			tableBody.children[0].children[0].innerHTML += message.eventTitle.replace(/\b\w/g, l => l.toUpperCase());
+			tableBody.children[0].children[1].innerHTML += message.eventType.replace(/\b\w/g, l => l.toUpperCase());
+			var utcStart = message.eventStart;
+			var utcEnd = message.eventEnd;
+			var dStart = new Date(0); // The 0 there is the key, which sets the date to the epoch
+			var dEnd = new Date(0); // The 0 there is the key, which sets the date to the epoch
+			dStart.setUTCSeconds(utcStart);
+			dEnd.setUTCSeconds(utcEnd);
+
+			tableBody.children[0].children[2].innerHTML = "Start on: "+ dStart.toLocaleDateString()+" - End on: "+dEnd.toLocaleDateString();
+
+			tableBody.children[2].children[1].innerHTML = message.eventDeaths + " deaths";
+			tableBody.children[2].children[2].innerHTML = message.eventInjuries + " injuries";
+			console.log(message.eventDes.split("/")[message.eventDes.split("/").length-1]);
+
+			defGetWikiMeta(message.eventDes.split("/")[message.eventDes.split("/").length-1]);
+			updateStatementEntities(message.eventEntities);
+			makeGraph3(message.eventInjuryMap);
+			makeGraph4(message.eventDeathMap);
+		}
+
+		function makeGraph(sameCatEvents){
+
+			var inData = [];
+
+			var chart = new CanvasJS.Chart("chartContainer1", {
+				animationEnabled: true,
+				theme: "light2",
+				title: {
+					text: "Compare to events in the category",
+					fontSize:24
+				},
+				axisX: {
+					valueFormatString: "DD, MMM, YYYY",
+					labelAngle: -20,
+					interval: 3,
+			        intervalType: "month"
+				},
+				axisY: {
+					title: "Total Damage : Deaths + Injuries",
+					titleFontSize: 12
+				},
+				data: [{
+					type: "column",
+					yValueFormatString: "#,### Persons",
+					dataPoints: inData
+				}]
+			});
+
+			function addData(sameCatEvents) {
+				console.log(sameCatEvents);
+				for (var i = 0; i < sameCatEvents.length; i++) {
+					var utcStart = sameCatEvents[i].eventStart;
+					var dStart = new Date(0); // The 0 there is the key, which sets the date to the epoch
+					dStart.setUTCSeconds(utcStart);
+
+					inData.push({
+						x: dStart,
+						y: parseInt(sameCatEvents[i].eventDeaths, 10) + parseInt(sameCatEvents[i].eventInjuries, 10)
+					});
+				}
+				chart.render();
+			}
+			addData(sameCatEvents);
+		}
+
+		function makeGraph1_2(sameCatEvents){
+			var injuriesData = [];
+			var deathsData = [];
+
+			var chart = new CanvasJS.Chart("chartContainer1", {
+				animationEnabled: true,
+				theme: "light2",
+				title:{
+					text: "Compare to events in the category",
+					fontSize:24
+				},
+				axisX: {
+					valueFormatString: "DD-MMM",
+						interval: 3,
+				        intervalType: "month"
+				},
+				axisY: {
+					valueFormatString: "#,### Persons",
+				},
+				toolTip: {
+					shared: true
+				},
+				legend:{
+					cursor: "pointer",
+					itemclick: toggleDataSeries
+				},
+				data: [{
+					type: "stackedBar",
+					name: "Injury",
+					showInLegend: "true",
+					xValueFormatString: "DD, MMM",
+					yValueFormatString: "#,### Persons",
+					dataPoints: injuriesData
+				},
+				{
+					type: "stackedBar",
+					name: "Deaths",
+					showInLegend: "true",
+					xValueFormatString: "DD, MMM",
+					yValueFormatString: "#,### Persons",
+					dataPoints: deathsData
+				}]
+			});
+
+			function addData(sameCatEvents) {
+				console.log(sameCatEvents);
+				for (var i = 0; i < sameCatEvents.length; i++) {
+					var utcStart = sameCatEvents[i].eventStart;
+					var dStart = new Date(0); // The 0 there is the key, which sets the date to the epoch
+					dStart.setUTCSeconds(utcStart);
+
+					injuriesData.push({
+						x: dStart,
+						y: parseInt(sameCatEvents[i].eventInjuries, 10)
+					});
+
+					deathsData.push({
+						x: dStart,
+						y: parseInt(sameCatEvents[i].eventDeaths, 10)
+					});
+				}
+				chart.render();
+			}
+			addData(sameCatEvents);
+
+
+			function toggleDataSeries(e) {
+				if(typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+					e.dataSeries.visible = false;
+				}
+				else {
+					e.dataSeries.visible = true;
+				}
+				chart.render();
+			}
+		}
+
+
+
+		function makeGraph2(sameYrEvents){
+			var injuriesData = [];
+			var deathsData = [];
+
+			var chart2 = new CanvasJS.Chart("chartContainer2", {
+				animationEnabled: true,
+				theme: "light2",
+				title:{
+					text: "Compare to events in the year",
+					fontSize:24
+				},
+				axisX: {
+					valueFormatString: "DD-MMM",
+						interval: 3,
+				        intervalType: "month"
+				},
+				axisY: {
+					valueFormatString: "#,### Persons",
+				},
+				toolTip: {
+					shared: true
+				},
+				legend:{
+					cursor: "pointer",
+					itemclick: toggleDataSeries
+				},
+				data: [{
+					type: "stackedBar",
+					name: "Injury",
+					showInLegend: "true",
+					xValueFormatString: "DD, MMM",
+					yValueFormatString: "#,### Persons",
+					dataPoints: injuriesData
+				},
+				{
+					type: "stackedBar",
+					name: "Deaths",
+					showInLegend: "true",
+					xValueFormatString: "DD, MMM",
+					yValueFormatString: "#,### Persons",
+					dataPoints: deathsData
+				}]
+			});
+
+			function addData(sameCatEvents) {
+				console.log(sameCatEvents);
+				for (var i = 0; i < sameCatEvents.length; i++) {
+					var utcStart = sameCatEvents[i].eventStart;
+					var dStart = new Date(0); // The 0 there is the key, which sets the date to the epoch
+					dStart.setUTCSeconds(utcStart);
+
+					injuriesData.push({
+						x: dStart,
+						y: parseInt(sameCatEvents[i].eventInjuries, 10)
+					});
+
+					deathsData.push({
+						x: dStart,
+						y: parseInt(sameCatEvents[i].eventDeaths, 10)
+					});
+				}
+				chart2.render();
+			}
+			addData(sameYrEvents);
+
+
+			function toggleDataSeries(e) {
+				if(typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+					e.dataSeries.visible = false;
+				}
+				else {
+					e.dataSeries.visible = true;
+				}
+				chart2.render();
+			}
+		}
+
+		function makeGraph3(inInjuries){
+			var injuriesData = [];
+
+			var chart3 = new CanvasJS.Chart("chartContainer3", {
+				animationEnabled: true,
+				title:{
+					text: "New Injury Registered"
+				},
+				axisX:{
+					valueFormatString: "DD"
+				},
+				axisY: {
+					title: "Persons",
+					includeZero: false,
+					scaleBreaks: {
+						autoCalculate: true
+					}
+				},
+				data: [{
+					type: "line",
+					xValueFormatString: "DD MMM - HH:mm",
+					yValueFormatString: "#,### Persons",
+					color: "#F08080",
+					dataPoints: injuriesData
+				}]
+			});
+			function addData(inInjuries) {
+				for(key in inInjuries){
+					var crrTimeStamp = key;
+					var crrDateTime = new Date(0); // The 0 there is the key, which sets the date to the epoch
+					crrDateTime.setUTCSeconds(crrTimeStamp);
+
+					injuriesData.push({
+						x: crrDateTime,
+						y: inInjuries[key]
+					});
+
+				}
+				chart3.render();
+			}
+			addData(inInjuries);
+
+		}
+		function makeGraph4(inDeaths){
+			var deathsData = [];
+
+			var chart4 = new CanvasJS.Chart("chartContainer4", {
+				animationEnabled: true,
+				title:{
+					text: "New Casualty Registered"
+				},
+				axisX:{
+					valueFormatString: "DD"
+				},
+				axisY: {
+					title: "Persons",
+					includeZero: false,
+					scaleBreaks: {
+						autoCalculate: true
+					}
+				},
+				data: [{
+					type: "line",
+					xValueFormatString: "DD MMM - HH:mm",
+					yValueFormatString: "#,### Persons",
+					color: "#F08080",
+					dataPoints: deathsData
+				}]
+			});
+			function addData(inDeaths) {
+				for(key in inDeaths){
+					var crrTimeStamp = key;
+					var crrDateTime = new Date(0); // The 0 there is the key, which sets the date to the epoch
+					crrDateTime.setUTCSeconds(crrTimeStamp);
+
+					deathsData.push({
+						x: crrDateTime,
+						y: inDeaths[key]
+					});
+
+				}
+				chart4.render();
+			}
+			addData(inDeaths);
+
+		}
+
+		function fetchEvent() {
+			var urlParams = new URLSearchParams(window.location.search);
+			var eventQuery = urlParams.get('eventId');
+			console.log(eventQuery)
+			console.log(ws.toString())
+			ws.send(JSON.stringify({
+				messageType : "getEventDetails",
+				query : eventQuery
+			}));
+		}
+		function defGetWikiMeta(query){
+			 $.ajax({
+			        type: "GET",
+			        url: "http://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&section=0&page="+query+"&callback=?",
+			        contentType: "application/json; charset=utf-8",
+			        async: true,
+			        dataType: "json",
+			        success: function (data, textStatus, jqXHR) {
+
+			            var markup = data.parse.text["*"];
+			            var blurb = $('<div></div>').html(markup);
+
+			            // remove links as they will not work
+			            blurb.find('a').each(function() { $(this).replaceWith($(this).html()); });
+
+			            // remove any references
+			            blurb.find('sup').remove();
+
+			            // remove cite error
+			            blurb.find('.mw-ext-cite-error').remove();
+			            $('#wikiTag').html($(blurb).find('p'));
+
+			        },
+			        error: function (errorMessage) {
+			        }
+			    });
+
+		}
+
+
+	</script>
+
+
+
+
+
+</body>
+<footer align="center">
+ © 2019 Developed by Nicky Vo at University Of Glasgow.
+</footer>
+
+</html>

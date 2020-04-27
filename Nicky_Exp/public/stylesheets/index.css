@@ -1,0 +1,31 @@
+.feed-me-jum {
+    background: linear-gradient(to right, #C33764, #1D2671);
+}
+
+#query-setting-a {
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin-top: 6px;
+}
+
+#query-setting-options {
+    display: block;
+    width: 40%;
+}
+
+#query-input {
+    display: inline;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.break-word {
+    word-wrap: break-word;
+}

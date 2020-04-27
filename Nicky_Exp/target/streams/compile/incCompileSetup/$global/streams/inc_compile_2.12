@@ -1,0 +1,723 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -encoding
+3 -> utf8
+javac options:
+3 items
+0 -> -encoding
+1 -> utf8
+2 -> -g
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+15 items
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/filters/ExampleFilter.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/controllers/ReverseAssets.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/controllers/ReverseHomeController.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/controllers/javascript/ReverseAssets.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/controllers/javascript/ReverseHomeController.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/router/Routes$$anonfun$routes$1.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/router/Routes.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/router/RoutesPrefix$.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/router/RoutesPrefix.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/eventSummary$.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/eventSummary.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/index$.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/index.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/nlpinit$.class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/nlpinit.class
+binary dependencies:
+27 items
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> /home/nicky/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.11.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.15.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> /home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.15.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> /home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.15.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.15.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> /home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> /home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.15.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.3.14.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> /home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.15.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.3.14.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> /home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.15.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> /home/nicky/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.3.14.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> /home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+8 items
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/HomeController.java
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/routes.java
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/routes.java
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> /media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/routes.java
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+15 items
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> filters.ExampleFilter
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> controllers.ReverseAssets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> controllers.ReverseHomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseAssets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseHomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> router.Routes
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix$
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> views.html.eventSummary
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> views.html.eventSummary$
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> views.html.index
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> views.html.index$
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> views.html.nlpinit
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> views.html.nlpinit$
+used names:
+460 items
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> ->
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> <init>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> <repeated>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> A
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Any
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> ArrowAssoc
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> B
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> ExampleFilter
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> ExecutionContext
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Filter
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Function1
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Future
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Materializer
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Nothing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Object
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Predef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> RequestHeader
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Result
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> S
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> String
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> Tuple2
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> _root_
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> akka
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> api
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> apply
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> concurrent
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> exec
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> filters
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> inject
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> javax
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> map
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> mat
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> mvc
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> nextFilter
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> play
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> requestHeader
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> result
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> stream
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> withHeaders
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> +
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> <byname>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> <init>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> <refinement>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> <repeated>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> A
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Any
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> AnyRef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Asset
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Assets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> B
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Boolean
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Call
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Map
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Nothing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Object
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> PathBindable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Predef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> ReverseAssets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> ReverseHomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> ReverseRouteContext
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Right
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> String
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> T
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> T1
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> T2
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Tuple2
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> _defaultPrefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> _prefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> _root_
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> _rrc
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> api
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> apply
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> assetPathBindable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> controllers
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> core
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> endsWith
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> file
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> implicitly
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> mvc
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> play
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> routing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> unbind
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> +
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> <byname>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> <init>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> <refinement>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Any
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> AnyRef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Asset
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Assets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Boolean
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> JavaScriptReverseRoute
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Nothing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Object
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> PathBindable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Predef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseAssets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseHomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseRouteContext
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Right
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> String
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> T
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _defaultPrefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _prefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _root_
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> api
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> assetPathBindable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> empty
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> endsWith
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> implicitly
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> javascript
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> javascriptUnbind
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> mvc
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> play
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> routing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> +
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> ++
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> :+
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> <byname>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> <init>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> <refinement>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> <repeated>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> ?0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> A
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> A1
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> A2
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> AbstractPartialFunction
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Action
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Any
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> AnyContent
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> AnyRef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Asset
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Assets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Assets_1
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> B
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> B1
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Boolean
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> CanBuildFrom
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> ClassLoader
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Coll
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> DynamicPart
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Either
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Function1
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Function2
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> GenTraversableOnce
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> GeneratedRouter
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Handler
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> HandlerDef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> HandlerInvoker
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> HandlerInvokerFactory
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> HomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> HomeController_0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> HttpErrorHandler
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> List
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Nil
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> None
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Nothing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Object
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Option
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Param
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> ParamsExtractor
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> PartialFunction
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> PathBindable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> PathPart
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> PathPattern
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Predef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Product
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> RequestHeader
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Result
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> ReverseRouteContext
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Right
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Route
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> RouteParams
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Routes
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> RoutesPrefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Seq
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Serializable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> StaticPart
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> String
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> T
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> T0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> T1
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> T2
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> T3
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> That
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Tuple3
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> Unit
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> WebSocket
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> _$1
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> api
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> apply
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> asInstanceOf
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> assetPathBindable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> call
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> canBuildFrom
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> collection
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_Assets_versioned4_invoker
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_Assets_versioned4_route
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_Assets_versioned5_invoker
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_Assets_versioned5_route
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_Assets_versioned6_invoker
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_Assets_versioned6_route
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_HomeController_eventDetails1_invoker
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_HomeController_eventDetails1_route
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_HomeController_index0_invoker
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_HomeController_index0_route
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_HomeController_nlpinit2_invoker
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_HomeController_nlpinit2_route
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_HomeController_socket3_invoker
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> controllers_HomeController_socket3_route
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> core
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> createInvoker
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> defaultPrefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> e
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> empty
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> endsWith
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> errorHandler
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> eventDetails
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> fakeValue
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> file
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> foldLeft
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> fromPath
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> get
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> getClass
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> getClassLoader
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> http
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> immutable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> index
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> isEmpty
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> isInstanceOf
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> javaWebSocket
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> mvc
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> nlpinit
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> package
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> params
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> passThrough
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> path
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> play
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> prefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> router
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> routing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> s
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> setPrefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> socket
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> unapply
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> unary_!
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> unchecked
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> versioned
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> wrapJava
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> <init>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> AnyRef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> Function0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> Object
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> Predef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> RoutesPrefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> String
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> Unit
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> _prefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> _prefix_=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> byNamePrefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> p
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> prefix
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> router
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> <init>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> <repeated>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> A
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Any
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Appendable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Asset
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Assets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> BaseScalaTemplate
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Call
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> ClassTag
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Context
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Format
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Function0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> HomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Html
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> HtmlFormat
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Http
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Implicit
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> JavaScript
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Nothing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> PlayMagic
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Predef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Request
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> ReverseAssets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> ReverseHomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Seq
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> String
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> T
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Template0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> TwirlFeatureImports
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> TwirlHelperImports
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Txt
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> Xml
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> _$7
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> _display_
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> _root_
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> api
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> apply
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> collection
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> controllers
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> data
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> eventSummary
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> format
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> html
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> i18n
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> materializeClassTag
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> models
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> mvc
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> package
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> play
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> raw
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> reflect
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> request
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> routes
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> socket
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> string2Asset
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> templates
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> twirl
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> versioned
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> views
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> webSocketURL
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> <init>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> <repeated>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> A
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Any
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Appendable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Asset
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Assets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> BaseScalaTemplate
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Call
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> ClassTag
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Context
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Format
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Function0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> HomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Html
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> HtmlFormat
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Http
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Implicit
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> JavaScript
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Nothing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> PlayMagic
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Predef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Request
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> ReverseAssets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> ReverseHomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Seq
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> String
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> T
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Template0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> TwirlFeatureImports
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> TwirlHelperImports
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Txt
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> Xml
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> _$7
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> _display_
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> _root_
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> api
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> apply
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> collection
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> controllers
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> data
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> format
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> html
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> i18n
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> index
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> materializeClassTag
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> models
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> mvc
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> package
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> play
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> raw
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> reflect
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> request
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> routes
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> socket
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> string2Asset
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> templates
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> twirl
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> versioned
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> views
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> webSocketURL
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> <init>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> <repeated>
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> A
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Any
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Appendable
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Asset
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Assets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> BaseScalaTemplate
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Call
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Class
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> ClassTag
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Context
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Format
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Function0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> HomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Html
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> HtmlFormat
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Http
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Implicit
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> JavaScript
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Nothing
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> PlayMagic
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Predef
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Request
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> ReverseAssets
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> ReverseHomeController
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Seq
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> String
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> T
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Template0
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> TwirlFeatureImports
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> TwirlHelperImports
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Txt
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> Xml
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> _$7
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> _display_
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> _root_
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> api
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> apply
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> collection
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> controllers
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> data
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> format
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> html
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> i18n
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> materializeClassTag
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> models
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> mvc
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> nlpinit
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> package
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> play
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> raw
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> reflect
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> request
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> routes
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> scala
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> socket
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> string2Asset
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> templates
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> twirl
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> versioned
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> views
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> webSocketURL
+product stamps:
+15 items
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/controllers/ReverseAssets.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/controllers/ReverseHomeController.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/controllers/javascript/ReverseAssets.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/controllers/javascript/ReverseHomeController.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/filters/ExampleFilter.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/router/Routes$$anonfun$routes$1.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/router/Routes.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/router/RoutesPrefix$.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/router/RoutesPrefix.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/eventSummary$.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/eventSummary.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/index$.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/index.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/nlpinit$.class -> lastModified(1553699270000)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/classes/views/html/nlpinit.class -> lastModified(1553699270000)
+source stamps:
+20 items
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/actors/WebSocketActor.java -> hash(e20108cedc646225f9da376765477766c09bc51e)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/DamageTracking.java -> hash(caceb0f876e7df7c5c7ac5e0a05c39f73865696e)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/DataController.java -> hash(0cdf196cb9569a0726c2b6a979704ad9ece0c7dc)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/DocReader.java -> hash(9df82d05ed3785918095270287d387ca881e61af)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/EventHandler.java -> hash(c1ae197e633cdf0278fb0a1eedf312d350c11d40)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/HomeController.java -> hash(becd8cca7498dde2169e56aa722666d79f4d984a)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/IRPipeline.java -> hash(76c54090d7e00c3bc7beeca28054abd76c7b84ef)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/SimpleTFIDF.java -> hash(a71e04efed8ae7115136fd67ecb315c8bd537f8b)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/StatementTracking.java -> hash(2bfc57f116b6e1e060079e855c1492cdca5bc46e)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> hash(af66d7dd7574deadca45a07b03196be04eb90281)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/models/Event.java -> hash(cea0f8b67f5b1b6e3328ddfcd800b218f77984c5)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/models/TrecDoc.java -> hash(cdeab420fd0693fb6efeaa90d1e5f5c6ba7bab04)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> hash(257759f6ca5a43643eb7b6d569fdff34732cd429)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> hash(2500bfcd92d608084478c1d9aad0ae5758b075e4)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/routes.java -> hash(11cb76053bb3c497603a54b561f436a1354705b6)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> hash(3bc3a9f7005ae41db52c1610e1a6538b553de55b)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> hash(fc48a59810e4d210efde08bcda5aa1a8c2e5f53d)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> hash(1850eab40825f658f7bf7a1c536d8dfcdf65896f)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> hash(fe1bb7622c4acda608690f3d667463b1484c8022)
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> hash(eb4b5fa4ed2a9cd45ff3a81ca33ff0fe6ca9a88b)
+binary stamps:
+5 items
+/home/nicky/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.11.jar -> lastModified(1519820208000)
+/home/nicky/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.15.jar -> lastModified(1527212858000)
+/home/nicky/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.3.14.jar -> lastModified(1519329543000)
+/home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> lastModified(1492071552000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1547499720000)
+class names:
+5 items
+/home/nicky/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.11.jar -> akka.stream.Materializer
+/home/nicky/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.15.jar -> play.mvc.Http
+/home/nicky/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.3.14.jar -> play.twirl.api.BaseScalaTemplate
+/home/nicky/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.reflect.ClassTag$
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Class
+internal apis:
+20 items
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/actors/WebSocketActor.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU4gEIztxkYiX52jdnZUd3ZsCbxR4=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/DamageTracking.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUys6w+Hbn33xcesXgoFw59zhlaW4=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/DataController.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7L/Z3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUDN8ZbLlWmgcmwrapeXBK2ezgx9w=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/DocReader.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUnfgtBe03hZGAlScCh9OHyogeYa8=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/EventHandler.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUwa4ZfmM83wJ4+woe7fMS01DBHUA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/HomeController.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUvs2MynSY3eIWnlaqciZm159NmEo=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/IRPipeline.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUdsVAkNfgDDvHvuyigFSr12x7hO8=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/SimpleTFIDF.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUpx4E7+2K5xFRNv1n7LMVyL1Tf4s=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/StatementTracking.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUK/xX8Ra24eBgB56FXBSSzcpbxG4=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw8Ii/NQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDTVYdEdAADbWF0dXEAfgAJAAAAGHNxAH4AC3qsMRh0AAZub3RpZnlzcQB+AAscZ4l8dAAEd2FpdHNxAH4AC2T0+xB0AA0kYXNJbnN0YW5jZU9mc3EAfgALp5oKk3QABmVxdWFsc3NxAH4ACyqpvkd0AAxhc0luc3RhbmNlT2ZzcQB+AAvIusLYdAANRXhhbXBsZUZpbHRlcnNxAH4AC45qvpp0AAxzeW5jaHJvbml6ZWRzcQB+AAvEo3usdAANJGlzSW5zdGFuY2VPZnNxAH4AC+Xf3390AAlub3RpZnlBbGxzcQB+AAta4DZTdAAMaXNJbnN0YW5jZU9mc3EAfgALvyl/e3QABmFzSmF2YXNxAH4AC1AJDE90AAY8aW5pdD5zcQB+AAsErbpddAAFYXBwbHlzcQB+AAvNcoHZdAACPT1zcQB+AAv5QGySdAAFY2xvbmVzcQB+AAsC7WG2dAAGJGluaXQkc3EAfgALjZDObHQACHRvU3RyaW5nc3EAfgALhWy/yHQAAiE9c3EAfgALTzdbaXQACGdldENsYXNzc3EAfgAL8zmnenQAAm5lc3EAfgALGHoYEnQAAmVxc3EAfgALCk7OiXQAAiMjc3EAfgALe9JAVXQACGZpbmFsaXplc3EAfgALfZmiFHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ASXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2V0ABBMeHNidGkvYXBpL1R5cGU7eHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADEwABXZhbHVlcQB+AAx4cHQAAHQAAigpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHQACVNpbmdsZXRvbnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFamF2YXhzcQB+AG50AAZpbmplY3RzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ab3NyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAFWZpbHRlcnMuRXhhbXBsZUZpbHRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAE2phdmF4LmluamVjdC5JbmplY3RzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhxAH4AYnNxAH4AgnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGNzcQB+AIJ1cQB+AEQAAAAAc3EAfgCCdXEAfgBEAAAAAHNxAH4AgnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3EAfgBgdAAGRmlsdGVyc3EAfgBmc3EAfgBpdXEAfgBsAAAABHNxAH4AbnQABHBsYXlzcQB+AG50AANhcGlzcQB+AG50AANtdmNxAH4AdXNxAH4AYHQAD0Vzc2VudGlhbEZpbHRlcnEAfgCTc3EAfgBgdAAGT2JqZWN0c3EAfgBmc3EAfgBpdXEAfgBsAAAAA3NxAH4AbnQABGphdmFzcQB+AG50AARsYW5ncQB+AHVzcQB+AGB0AANBbnlzcQB+AGZzcQB+AGl1cQB+AGwAAAACc3EAfgBudAAFc2NhbGFxAH4AdXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAB2ZpbHRlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWm/sUPWdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAVy9tZWRpYS9uaWNreS9TVFVEWS8zX0dVLzR0aFlyL1BSSi9mYWN0ZmluZGVyYmFja2VuZC9OaWNreV9FeHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFK9m1911dN6tykWgewMZa+BOuQKB
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/models/Event.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUzqD4tn9bG24zKN382ACyGPd5hMU=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/models/TrecDoc.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUzeq0IP0Gk/tu/qqQ0eX1xrp7qwQ=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwDRMXtwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAcc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwZsCTo3QABm5vdGlmeXNxAH4ADI5d8JZ0AAxldmVudERldGFpbHNzcQB+AAzoCvlHdAAOX2RlZmF1bHRQcmVmaXhzcQB+AAwrrBErdAAEd2FpdHNxAH4ADIkmMcd0AAZzb2NrZXRzcQB+AAyMrsftdAANJGFzSW5zdGFuY2VPZnNxAH4ADBf9p/J0AAZlcXVhbHNzcQB+AAzV8rCFdAAMYXNJbnN0YW5jZU9mc3EAfgAM975mCXQADHN5bmNocm9uaXplZHNxAH4ADCu+/fV0ABVSZXZlcnNlSG9tZUNvbnRyb2xsZXJzcQB+AAzItUVXdAANJGlzSW5zdGFuY2VPZnNxAH4ADFCG/gl0AA1SZXZlcnNlQXNzZXRzc3EAfgAM1tBfvnQACW5vdGlmeUFsbHNxAH4ADC5JEBF0AAxpc0luc3RhbmNlT2ZzcQB+AAyJo3cwdAAGPGluaXQ+c3EAfgAMqH9BPXQAAj09c3EAfgAM5gY7bXQABWNsb25lc3EAfgAM1vsbCnQACHRvU3RyaW5nc3EAfgAM0fQPo3QAAiE9c3EAfgAMU44yNXQACGdldENsYXNzc3EAfgAMnvvDZHQAAm5lc3EAfgAMeRltQXQAB25scGluaXRzcQB+AAyntHFQdAAJdmVyc2lvbmVkc3EAfgAMFuniRHQAAmVxc3EAfgAM501L5XQAAiMjc3EAfgAM2GOMZnQACGZpbmFsaXplc3EAfgAMh2cRBXQABWluZGV4c3EAfgAMvMO+pXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AT3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAIWNvbnRyb2xsZXJzLlJldmVyc2VIb21lQ29udHJvbGxlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBnc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE9MAAlpbmhlcml0ZWRxAH4AT0wAB3BhcmVudHNxAH4AT3hxAH4AbHNxAH4AZ3VxAH4ASgAAAABzcQB+AGd1cQB+AEoAAAAAc3EAfgBndXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBrdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBrc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCEdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCFc3EAfgB4dAADQW55c3EAfgB8c3EAfgB/dXEAfgCCAAAAAnNxAH4AhHQABXNjYWxhcQB+AItzcQB+AExxAH4AWXVxAH4AWgAAAABzcQB+AFwAdAAZY29udHJvbGxlcnMuUmV2ZXJzZUFzc2V0c3VxAH4AXwAAAABxAH4AY3VxAH4AZQAAAABzcQB+AGdxAH4AbXNxAH4AZ3NxAH4Ab3NxAH4AZ3VxAH4ASgAAAABzcQB+AGd1cQB+AEoAAAAAc3EAfgBndXEAfgB2AAAAAnNxAH4AeHEAfgB7c3EAfgB8c3EAfgB/dXEAfgCCAAAAA3NxAH4AhHEAfgCHc3EAfgCEcQB+AIlxAH4Ai3NxAH4AeHEAfgCNc3EAfgB8c3EAfgB/dXEAfgCCAAAAAnNxAH4AhHEAfgCScQB+AIt1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtjb250cm9sbGVyc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABab+xQ9Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUJXdZ9spaQ2Q+t7bVaf3/NHMs1Ck=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwQHtN5QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAcc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwExyztHQABm5vdGlmeXNxAH4ADJHhxqV0AAxldmVudERldGFpbHNzcQB+AAw4XmwfdAAOX2RlZmF1bHRQcmVmaXhzcQB+AAzSBGDidAAEd2FpdHNxAH4ADDnkfBN0AAZzb2NrZXRzcQB+AAz4MEzddAANJGFzSW5zdGFuY2VPZnNxAH4ADCds1fB0AAZlcXVhbHNzcQB+AAw257IKdAAMYXNJbnN0YW5jZU9mc3EAfgAM6vDofXQADHN5bmNocm9uaXplZHNxAH4ADE3+T8d0ABVSZXZlcnNlSG9tZUNvbnRyb2xsZXJzcQB+AAwlUvfZdAANJGlzSW5zdGFuY2VPZnNxAH4ADHSdBVt0AA1SZXZlcnNlQXNzZXRzc3EAfgAMnVQXRHQACW5vdGlmeUFsbHNxAH4ADHG2sJ50AAxpc0luc3RhbmNlT2ZzcQB+AAz2iHuHdAAGPGluaXQ+c3EAfgAM4+ejWXQAAj09c3EAfgAM2reUf3QABWNsb25lc3EAfgAMj2lsKXQACHRvU3RyaW5nc3EAfgAMlHULYnQAAiE9c3EAfgAMaeLt83QACGdldENsYXNzc3EAfgAM97pBaHQAAm5lc3EAfgAMCzEw8XQAB25scGluaXRzcQB+AAyx/FkzdAAJdmVyc2lvbmVkc3EAfgAMvP+0YHQAAmVxc3EAfgAMMS/S13QAAiMjc3EAfgAM4WAacHQACGZpbmFsaXplc3EAfgAMGhbkrnQABWluZGV4c3EAfgAMJ2Y7CHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AT3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQALGNvbnRyb2xsZXJzLmphdmFzY3JpcHQuUmV2ZXJzZUhvbWVDb250cm9sbGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGdzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AT0wACWluaGVyaXRlZHEAfgBPTAAHcGFyZW50c3EAfgBPeHEAfgBsc3EAfgBndXEAfgBKAAAAAHNxAH4AZ3VxAH4ASgAAAABzcQB+AGd1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGt0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGtzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIR0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIVzcQB+AHh0AANBbnlzcQB+AHxzcQB+AH91cQB+AIIAAAACc3EAfgCEdAAFc2NhbGFxAH4Ai3NxAH4ATHEAfgBZdXEAfgBaAAAAAHNxAH4AXAB0ACRjb250cm9sbGVycy5qYXZhc2NyaXB0LlJldmVyc2VBc3NldHN1cQB+AF8AAAAAcQB+AGN1cQB+AGUAAAAAc3EAfgBncQB+AG1zcQB+AGdzcQB+AG9zcQB+AGd1cQB+AEoAAAAAc3EAfgBndXEAfgBKAAAAAHNxAH4AZ3VxAH4AdgAAAAJzcQB+AHhxAH4Ae3NxAH4AfHNxAH4Af3VxAH4AggAAAANzcQB+AIRxAH4Ah3NxAH4AhHEAfgCJcQB+AItzcQB+AHhxAH4AjXNxAH4AfHNxAH4Af3VxAH4AggAAAAJzcQB+AIRxAH4AknEAfgCLdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAWY29udHJvbGxlcnMuamF2YXNjcmlwdHNxAH4Ar3QAC2NvbnRyb2xsZXJzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFcvbWVkaWEvbmlja3kvU1RVRFkvM19HVS80dGhZci9QUkovZmFjdGZpbmRlcmJhY2tlbmQvTmlja3lfRXhwL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQlAL/NktYICER4wdmq0K5XWLB15A==
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/routes.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUEct2BTuzxJdgOlS1YfQ2oTVHBbY=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwy/C7nwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAhc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwTYH5tnQABm5vdGlmeXNxAH4ADGWb3lJ0AApiYWRSZXF1ZXN0c3EAfgAMgJgH0nQABHdhaXRzcQB+AAxy9pV9dAANJGFzSW5zdGFuY2VPZnNxAH4ADEk2S3d0AAZyb3V0ZXNzcQB+AAx5b7vQdAANY3JlYXRlSW52b2tlcnNxAH4ADDoKbR50AAZlcXVhbHNzcQB+AAxUx9/vdAAGcHJlZml4c3EAfgAM7rEG3nQADGFzSW5zdGFuY2VPZnNxAH4ADAJP80p0AA1kb2N1bWVudGF0aW9uc3EAfgAMyAHA4HQADHN5bmNocm9uaXplZHNxAH4ADNpRt4V0AA0kaXNJbnN0YW5jZU9mc3EAfgAMQ6hwr3QACmhhbmRsZXJGb3JzcQB+AAzxTVAydAAJbm90aWZ5QWxsc3EAfgAMyGaE1HQADGlzSW5zdGFuY2VPZnNxAH4ADFEejfd0AAZhc0phdmFzcQB+AAzOS0WodAAMZXJyb3JIYW5kbGVyc3EAfgAMUaIob3QABjxpbml0PnNxAH4ADFroZ7d0AAI9PXNxAH4ADDHdx6x0AAVjbG9uZXNxAH4ADOBEvnx0AAYkaW5pdCRzcQB+AAwUiwjJdAAGUm91dGVzc3EAfgAMt0jr8HQACHRvU3RyaW5nc3EAfgAMyb8nyHQAAiE9c3EAfgAMylHjK3QACWZha2VWYWx1ZXNxAH4ADHSi/xh0AAhnZXRDbGFzc3NxAH4ADDJgSaR0AAJuZXNxAH4ADAVx8Sx0AAp3aXRoUHJlZml4c3EAfgAMHZawrnQABGNhbGxzcQB+AAz3VL9+dAACZXFzcQB+AAz3Ur0QdAACIyNzcQB+AAxtA/WddAAIZmluYWxpemVzcQB+AAyFs1FvdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBZeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAANcm91dGVyLlJvdXRlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAE2phdmF4LmluamVjdC5JbmplY3RzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBZTAAJaW5oZXJpdGVkcQB+AFlMAAdwYXJlbnRzcQB+AFl4cQB+AHdzcQB+AHJ1cQB+AFQAAAAAc3EAfgBydXEAfgBUAAAAAHNxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AdnQAD0dlbmVyYXRlZFJvdXRlcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABHNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEcGxheXNxAH4Aj3QABGNvcmVzcQB+AI90AAdyb3V0aW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJBzcQB+AIN0AAZSb3V0ZXJzcQB+AIdzcQB+AIp1cQB+AI0AAAAEc3EAfgCPdAAEcGxheXNxAH4Aj3QAA2FwaXNxAH4Aj3QAB3JvdXRpbmdxAH4AmHNxAH4Ag3QABk9iamVjdHNxAH4Ah3NxAH4AinVxAH4AjQAAAANzcQB+AI90AARqYXZhc3EAfgCPdAAEbGFuZ3EAfgCYc3EAfgCDdAADQW55c3EAfgCHc3EAfgCKdXEAfgCNAAAAAnNxAH4Aj3QABXNjYWxhcQB+AJh1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZyb3V0ZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWm/sUPWdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAVy9tZWRpYS9uaWNreS9TVFVEWS8zX0dVLzR0aFlyL1BSSi9mYWN0ZmluZGVyYmFja2VuZC9OaWNreV9FeHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDvDqfcAWuQdtSwWEOGmU4tVPeVb
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwyXv9DQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw3SNaY3QABm5vdGlmeXNxAH4ADDqZ8+l0AAxieU5hbWVQcmVmaXhzcQB+AAwaoC4qdAAEd2FpdHNxAH4ADCKKFB50AA0kYXNJbnN0YW5jZU9mc3EAfgAMaULSCHQABmVxdWFsc3NxAH4ADHOOIFd0AAZwcmVmaXhzcQB+AAyh7h6fdAAMYXNJbnN0YW5jZU9mc3EAfgAMSdNNC3QADFJvdXRlc1ByZWZpeHNxAH4ADMFVI+50AAxzeW5jaHJvbml6ZWRzcQB+AAzc9bSjdAANJGlzSW5zdGFuY2VPZnNxAH4ADL28U7F0AAlub3RpZnlBbGxzcQB+AAz/ysYxdAAMaXNJbnN0YW5jZU9mc3EAfgAM2W34NHQAAj09c3EAfgAMxTNSy3QABWNsb25lc3EAfgAM+6h7k3QACHRvU3RyaW5nc3EAfgAMjL/9EnQAAiE9c3EAfgAMFWcPZ3QACGdldENsYXNzc3EAfgAMRJBH63QACXNldFByZWZpeHNxAH4ADA44Ta90AAJuZXNxAH4ADBnhnUh0AAJlcXNxAH4ADBp2Pzd0AAIjI3NxAH4ADAff5nh0AAhmaW5hbGl6ZXNxAH4ADIIAnnp0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABNyb3V0ZXIuUm91dGVzUHJlZml4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBdc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEVMAAlpbmhlcml0ZWRxAH4ARUwAB3BhcmVudHNxAH4ARXhxAH4AYnNxAH4AXXVxAH4AQAAAAABzcQB+AF11cQB+AEAAAAAAc3EAfgBddXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB6dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7c3EAfgBudAADQW55c3EAfgByc3EAfgB1dXEAfgB4AAAAAnNxAH4AenQABXNjYWxhcQB+AIF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZyb3V0ZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWm/sUPWdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAVy9tZWRpYS9uaWNreS9TVFVEWS8zX0dVLzR0aFlyL1BSSi9mYWN0ZmluZGVyYmFja2VuZC9OaWNreV9FeHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPxIpZgQ5NIQ794IvNpaoajC5fU9
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw9yxRtwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdm01IXQABm5vdGlmeXNxAH4ADJHqs3J0AAZmb3JtYXRzcQB+AAxobpJXdAAEd2FpdHNxAH4ADETdcSh0AA0kYXNJbnN0YW5jZU9mc3EAfgAMDWW2x3QADHByb2R1Y3RBcml0eXNxAH4ADDBxfQN0AAZlcXVhbHNzcQB+AAwRJePedAAMYXNJbnN0YW5jZU9mc3EAfgAMSO4BxXQAAWZzcQB+AAybYHTudAAMc3luY2hyb25pemVkc3EAfgAMVD0hzHQACV9kaXNwbGF5X3NxAH4ADFAc86F0AA0kaXNJbnN0YW5jZU9mc3EAfgAMI3t0NnQAA3JlZnNxAH4ADBgOrSR0AAhjYW5FcXVhbHNxAH4ADL3aMo90AA1wcm9kdWN0UHJlZml4c3EAfgAM5Z1NWHQACW5vdGlmeUFsbHNxAH4ADEaID010AAxpc0luc3RhbmNlT2ZzcQB+AAxpIw/qdAAFYXBwbHlzcQB+AAy6E1HAdAACPT1zcQB+AAxdRhsCdAAFY2xvbmVzcQB+AAwLDalodAAGJGluaXQkc3EAfgAMynnQwnQADGV2ZW50U3VtbWFyeXNxAH4ADKArjlR0AARjb3B5c3EAfgAMcQ4MnnQACHRvU3RyaW5nc3EAfgAM5mDbN3QAAiE9c3EAfgAMhgP26XQACGdldENsYXNzc3EAfgAM+ps2jXQADmNvcHkkZGVmYXVsdCQxc3EAfgAMEjrK53QABnJlbmRlcnNxAH4ADGrreTx0AAJuZXNxAH4ADH5Mq950AAJlcXNxAH4ADI4o1U10AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAzr5+JPdAACIyNzcQB+AAzHq7zkdAAIZmluYWxpemVzcQB+AAwftH7AdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAzlR/p7dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAXdmlld3MuaHRtbC5ldmVudFN1bW1hcnl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHNzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AW0wACWluaGVyaXRlZHEAfgBbTAAHcGFyZW50c3EAfgBbeHEAfgB4c3EAfgBzdXEAfgBWAAAAAHNxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAACHNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGV0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgB3c3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4cQB+AIV4cQB+AHd0AAlUZW1wbGF0ZTBzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABHBsYXlzcQB+AJN0AAV0d2lybHNxAH4Ak3QAA2FwaXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCUdXEAfgCCAAAAAXNxAH4AiHQABEh0bWxxAH4AjXNxAH4AhHNxAH4AiHQAEUJhc2VTY2FsYVRlbXBsYXRlcQB+AI11cQB+AIIAAAACcQB+AJ5zcQB+AIRzcQB+AIh0AAZGb3JtYXRxAH4AjXVxAH4AggAAAAFxAH4AnnNxAH4AiHQADFNlcmlhbGl6YWJsZXNxAH4Ai3NxAH4AjnVxAH4AkQAAAAJzcQB+AJN0AAVzY2FsYXEAfgCcc3EAfgCIcQB+AKlzcQB+AItzcQB+AI51cQB+AJEAAAADc3EAfgCTdAAEamF2YXNxAH4Ak3QAAmlvcQB+AJxzcQB+AIh0AAdQcm9kdWN0cQB+AKpzcQB+AIh0AAZFcXVhbHNxAH4AqnNxAH4AiHQABk9iamVjdHNxAH4Ai3NxAH4AjnVxAH4AkQAAAANzcQB+AJNxAH4AtHNxAH4Ak3QABGxhbmdxAH4AnHNxAH4AiHQAA0FueXEAfgCqdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAFdmlld3NzcQB+AMd0AAp2aWV3cy5odG1sc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFpv7FD1nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFcvbWVkaWEvbmlja3kvU1RVRFkvM19HVS80dGhZci9QUkovZmFjdGZpbmRlcmJhY2tlbmQvTmlja3lfRXhwL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQYUOq0CCX2WPe/ehxTbY3832WJbw==
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwDg3YqgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwNVSgq3QABm5vdGlmeXNxAH4ADNXoUtZ0AAZmb3JtYXRzcQB+AAxo1BiadAAEd2FpdHNxAH4ADFIBw8p0AA0kYXNJbnN0YW5jZU9mc3EAfgAMUNkVknQADHByb2R1Y3RBcml0eXNxAH4ADGrlpqx0AAZlcXVhbHNzcQB+AAz4YTDsdAAMYXNJbnN0YW5jZU9mc3EAfgAMuEX5J3QAAWZzcQB+AAwvpcnIdAAMc3luY2hyb25pemVkc3EAfgAMaZaFyHQACV9kaXNwbGF5X3NxAH4ADEtVoHB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMItkgYHQAA3JlZnNxAH4ADDnYA+F0AAhjYW5FcXVhbHNxAH4ADHuYsJV0AA1wcm9kdWN0UHJlZml4c3EAfgAM7YhdOXQACW5vdGlmeUFsbHNxAH4ADGv02DF0AAxpc0luc3RhbmNlT2ZzcQB+AAw5mqFddAAFYXBwbHlzcQB+AAwc0o66dAACPT1zcQB+AAxvd+FcdAAFY2xvbmVzcQB+AAyDwoOjdAAGJGluaXQkc3EAfgAMbzLXtXQABGNvcHlzcQB+AAwaY2oIdAAIdG9TdHJpbmdzcQB+AAyFbOdVdAACIT1zcQB+AAxEyrvwdAAIZ2V0Q2xhc3NzcQB+AAxGhC/8dAAOY29weSRkZWZhdWx0JDFzcQB+AAzgqTOLdAAGcmVuZGVyc3EAfgAMnyMNjHQAAm5lc3EAfgAM+/2EdXQAAmVxc3EAfgAMiKJzlHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADL/EnzZ0AAIjI3NxAH4ADJLr+590AAhmaW5hbGl6ZXNxAH4ADPtnW5h0AAVpbmRleHNxAH4ADGKrc2x0AA5wcm9kdWN0RWxlbWVudHNxAH4ADOpsgOt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABB2aWV3cy5odG1sLmluZGV4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AeHNxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cQB+AFYAAAAAc3EAfgBzdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAhzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Ad3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgCFeHEAfgB3dAAJVGVtcGxhdGUwc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB3c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgCTdAAFdHdpcmxzcQB+AJN0AANhcGlzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlHVxAH4AggAAAAFzcQB+AIh0AARIdG1scQB+AI1zcQB+AIRzcQB+AIh0ABFCYXNlU2NhbGFUZW1wbGF0ZXEAfgCNdXEAfgCCAAAAAnEAfgCec3EAfgCEc3EAfgCIdAAGRm9ybWF0cQB+AI11cQB+AIIAAAABcQB+AJ5zcQB+AIh0AAxTZXJpYWxpemFibGVzcQB+AItzcQB+AI51cQB+AJEAAAACc3EAfgCTdAAFc2NhbGFxAH4AnHNxAH4AiHEAfgCpc3EAfgCLc3EAfgCOdXEAfgCRAAAAA3NxAH4Ak3QABGphdmFzcQB+AJN0AAJpb3EAfgCcc3EAfgCIdAAHUHJvZHVjdHEAfgCqc3EAfgCIdAAGRXF1YWxzcQB+AKpzcQB+AIh0AAZPYmplY3RzcQB+AItzcQB+AI51cQB+AJEAAAADc3EAfgCTcQB+ALRzcQB+AJN0AARsYW5ncQB+AJxzcQB+AIh0AANBbnlxAH4AqnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXZpZXdzc3EAfgDHdAAKdmlld3MuaHRtbHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABab+xQ9Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABXL21lZGlhL25pY2t5L1NUVURZLzNfR1UvNHRoWXIvUFJKL2ZhY3RmaW5kZXJiYWNrZW5kL05pY2t5X0V4cC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU/hu3YixKzaYIaQ89ZnRjsUhMgCI=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwCaDBGgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwOfRlWnQABm5vdGlmeXNxAH4ADA8mUr50AAZmb3JtYXRzcQB+AAxGINwbdAAEd2FpdHNxAH4ADIM35E50AA0kYXNJbnN0YW5jZU9mc3EAfgAMF+LwP3QADHByb2R1Y3RBcml0eXNxAH4ADENcoWB0AAZlcXVhbHNzcQB+AAzcTI5SdAAMYXNJbnN0YW5jZU9mc3EAfgAM93RQAXQAAWZzcQB+AAx2CeOddAAMc3luY2hyb25pemVkc3EAfgAMvt+CYXQACV9kaXNwbGF5X3NxAH4ADIIDASV0AA0kaXNJbnN0YW5jZU9mc3EAfgAMmPwiw3QAA3JlZnNxAH4ADL0Lrbh0AAhjYW5FcXVhbHNxAH4ADM+Dv4x0AA1wcm9kdWN0UHJlZml4c3EAfgAMqJjmPHQACW5vdGlmeUFsbHNxAH4ADLG1GSx0AAxpc0luc3RhbmNlT2ZzcQB+AAwKT5GwdAAFYXBwbHlzcQB+AAyXW+F4dAACPT1zcQB+AAw0QhESdAAFY2xvbmVzcQB+AAw9oVJedAAGJGluaXQkc3EAfgAM8KKxFHQABGNvcHlzcQB+AAzLFQsbdAAIdG9TdHJpbmdzcQB+AAzPqyAsdAACIT1zcQB+AAzbSCa9dAAIZ2V0Q2xhc3NzcQB+AAwtA8zLdAAOY29weSRkZWZhdWx0JDFzcQB+AAye0LEmdAAGcmVuZGVyc3EAfgAMS7UTunQAAm5lc3EAfgAM1BSW3nQAB25scGluaXRzcQB+AAxyAIeYdAACZXFzcQB+AAwBmrmWdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMjGODH3QAAiMjc3EAfgAMDgvnhnQACGZpbmFsaXplc3EAfgAM8S35G3QADnByb2R1Y3RFbGVtZW50c3EAfgAMOp7X7nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AW3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAEnZpZXdzLmh0bWwubmxwaW5pdHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Ac3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBbTAAJaW5oZXJpdGVkcQB+AFtMAAdwYXJlbnRzcQB+AFt4cQB+AHhzcQB+AHN1cQB+AFYAAAAAc3EAfgBzdXEAfgBWAAAAAHNxAH4Ac3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAIc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHdzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AhXhxAH4Ad3QACVRlbXBsYXRlMHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ad3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABHNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEcGxheXNxAH4Ak3QABXR3aXJsc3EAfgCTdAADYXBpc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJR1cQB+AIIAAAABc3EAfgCIdAAESHRtbHEAfgCNc3EAfgCEc3EAfgCIdAARQmFzZVNjYWxhVGVtcGxhdGVxAH4AjXVxAH4AggAAAAJxAH4AnnNxAH4AhHNxAH4AiHQABkZvcm1hdHEAfgCNdXEAfgCCAAAAAXEAfgCec3EAfgCIdAAMU2VyaWFsaXphYmxlc3EAfgCLc3EAfgCOdXEAfgCRAAAAAnNxAH4Ak3QABXNjYWxhcQB+AJxzcQB+AIhxAH4AqXNxAH4Ai3NxAH4AjnVxAH4AkQAAAANzcQB+AJN0AARqYXZhc3EAfgCTdAACaW9xAH4AnHNxAH4AiHQAB1Byb2R1Y3RxAH4AqnNxAH4AiHQABkVxdWFsc3EAfgCqc3EAfgCIdAAGT2JqZWN0c3EAfgCLc3EAfgCOdXEAfgCRAAAAA3NxAH4Ak3EAfgC0c3EAfgCTdAAEbGFuZ3EAfgCcc3EAfgCIdAADQW55cQB+AKp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV2aWV3c3NxAH4Ax3QACnZpZXdzLmh0bWxzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWm/sUPWdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAVy9tZWRpYS9uaWNreS9TVFVEWS8zX0dVLzR0aFlyL1BSSi9mYWN0ZmluZGVyYmFja2VuZC9OaWNreV9FeHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFOtLX6TtKpzUX/OoHKM/8P5sqaiL
+external apis:
+0 items
+source infos:
+20 items
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/actors/WebSocketActor.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/DamageTracking.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/DataController.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/DocReader.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/EventHandler.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/HomeController.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/IRPipeline.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/SimpleTFIDF.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/controllers/StatementTracking.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/filters/ExampleFilter.scala -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/models/Event.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/app/models/TrecDoc.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/controllers/routes.java -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/Routes.scala -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/eventSummary.template.scala -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/index.template.scala -> 
+AAAAAAAAAAA=
+/media/nicky/STUDY/3_GU/4thYr/PRJ/factfinderbackend/Nicky_Exp/target/scala-2.12/twirl/main/views/html/nlpinit.template.scala -> 
+AAAAAAAAAAA=
+compilations:
+6 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABab7YKYt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVy9tZWRpYS9uaWNreS9TVFVEWS8zX0dVLzR0aFlyL1BSSi9mYWN0ZmluZGVyYmFja2VuZC9OaWNreV9FeHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABab78c3N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVy9tZWRpYS9uaWNreS9TVFVEWS8zX0dVLzR0aFlyL1BSSi9mYWN0ZmluZGVyYmFja2VuZC9OaWNreV9FeHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABab+bzhR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAR0Q6XDNfR1VcNHRoWXJcUFJKXGZhY3RmaW5kZXJiYWNrZW5kXE5pY2t5X0V4cFx0YXJnZXRcc2NhbGEtMi4xMlxjbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABab+xQ9Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVy9tZWRpYS9uaWNreS9TVFVEWS8zX0dVLzR0aFlyL1BSSi9mYWN0ZmluZGVyYmFja2VuZC9OaWNreV9FeHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABab+yRn91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVy9tZWRpYS9uaWNreS9TVFVEWS8zX0dVLzR0aFlyL1BSSi9mYWN0ZmluZGVyYmFja2VuZC9OaWNreV9FeHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABab+y/2d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVy9tZWRpYS9uaWNreS9TVFVEWS8zX0dVLzR0aFlyL1BSSi9mYWN0ZmluZGVyYmFja2VuZC9OaWNreV9FeHAvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=

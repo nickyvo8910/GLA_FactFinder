@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+@import play.mvc.Http.Context.Implicit._
+
+<html>
+<head>
+<title>Fact Extraction Web App</title>
+<link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")">
+<link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/all.min.css")">
+<link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/open-iconic-bootstrap.min.css")">
+<link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/DivTable.css")">
+
+
+<link href="https://fonts.googleapis.com/css?family=Varela+Round"
+	rel="stylesheet">
+<link
+	href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+	rel="stylesheet">
+
+<script src="@routes.Assets.versioned("javascripts/jquery.min.js")"></script>
+<script src="@routes.Assets.versioned("javascripts/jquery.easing.min.js")"></script>
+<script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+<script src="@routes.Assets.versioned("javascripts/all.min.js")"></script>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body id="myBody"
+	wsdata="@routes.HomeController.socket.webSocketURL(request)"
+	onload="initalize()">
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<h4 style="font-family: 'Varela Round'">Welcome to Fact
+							Extraction Web App</h4>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="searchbar" class="col-md-12">
+				<div class="input-group mb-3">
+					<input id="searchText" type="text" class="form-control"
+						placeholder="Event Search" aria-label="Event Search"
+						aria-describedby="basic-addon2">
+					<div class="input-group-append">
+						<button type="button" class="btn btn-primary"
+							onclick="searchButtonPressed()">Look Up!</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<br />
+
+
+		<div id="eventTypeOptionWrapper">
+			<form class="input-group mb-3">
+				<div class="form-control">
+					<input type="radio" name="eventTypeOption" id="filterNat"
+						value="natural" />Natural
+				</div>
+				<div class="form-control">
+					<input type="radio" name="eventTypeOption" id="filterArt"
+						value="artificial" />Artificial
+				</div>
+				<div class="form-control">
+					<input type="radio" name="eventTypeOption" id="filterAll"
+						value="all" checked />All
+				</div>
+			</form>
+		</div>
+
+		<br />
+
+
+		<div id="sortingOptionWrapper">
+			<form class="input-group mb-3">
+				<div class="form-control">
+					<input type="radio" name="sortingOption" id="srtName" value="Name"
+						checked />Event Title
+				</div>
+				<div class="form-control">
+					<input type="radio" name="sortingOption" id="srtStart"
+						value="Start" />Start Time
+				</div>
+				<div class="form-control">
+					<input type="radio" name="sortingOption" id="srtEnd" value="End" />End
+					Time
+				</div>
+				<div class="input-group-append">
+					<button type="button" class="btn btn-primary"
+						onclick="eventSorting()">Sort Results</button>
+				</div>
+			</form>
+		</div>
+
+
+		<div id="resultsDivScroll" style="display: inline-table; width: 100%;">
+			<div id="content">
+				<table class="table table-striped" id="dvTable"
+					style="display: none; width: 100%;">
+					<thead>
+						<tr>
+							<th>Event Results</th>
+						</tr>
+						<tr id="resultTableRow" style="display: none; width: 100%;">
+							<td>
+								<div class="divTable">
+									<div class="divTableBody">
+										<div class="divTableRow">
+											<div class="divTableCell">Event Title:</div>
+											<div class="divTableCell">message.eventTitle</div>
+										</div>
+										<div class="divTableRow">
+											<div class="divTableCell">Event Type:</div>
+											<div class="divTableCell">message.eventType</div>
+										</div>
+										<div class="divTableRow">
+											<div class="divTableCell">Event Query Keywords:</div>
+											<div class="divTableCell">message.eventQuery</div>
+										</div>
+
+										<div class="divTableRow">
+											<div class="divTableCell">Event Occurred on:</div>
+											<div class="divTableCell">message.eventStart</div>
+										</div>
+										<div class="divTableRow">
+											<div class="divTableCell">Event Finished on:</div>
+											<div class="divTableCell">message.eventEnd</div>
+										</div>
+										<div class="divTableRow">
+											<div class="divTableCell">Important Figures Commented:</div>
+											<div class="divTableCell">message.eventFigs</div>
+										</div>
+										<div class="divTableRow">
+											<div class="divTableCell">More at:</div>
+											<div class="divTableCell">
+												<a>message.eventDes</a>
+											</div>
+										</div>
+										<div class="divTableRow">
+											<div class="divTableCell">Event Summary:</div>
+											<div class="divTableCell">
+												<a>message.eventDes</a>
+											</div>
+										</div>
+									</div>
+								</div> <!-- DivTable.com -->
+							</td>
+						</tr>
+					</thead>
+					<tbody id="resultTableBody">
+
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+		function eventSorting(){
+			var sortBy="End";
+			if (document.getElementById('srtName').checked) {
+				sortBy = document.getElementById('srtName').value;
+				}
+			else if (document.getElementById('srtStart').checked) {
+				sortBy = document.getElementById('srtStart').value;
+				}
+			else if (document.getElementById('srtEnd').checked) {
+				sortBy = document.getElementById('srtEnd').value;
+				}
+
+			var toSort = document.getElementById("resultTableBody").children;
+			toSort = Array.prototype.slice.call(toSort, 0);
+			toSort.sort(function(a, b) {
+				var compareResult;
+				if(sortBy.localeCompare("Name")==0){
+					var aord = a.children[0].children[0].children[0].children[0].children[1].innerHTML;
+					var bord = b.children[0].children[0].children[0].children[0].children[1].innerHTML;
+
+					compareResult = aord.localeCompare(bord);
+
+				}else if(sortBy.localeCompare("Start")==0){
+
+					var aDate = a.children[0].children[0].children[0].children[3].children[1].innerHTML.split("/");
+					var aEPOCH = new Date(aDate[2], aDate[1], aDate[0]).getTime() / 1000;
+				    var aord = +aEPOCH;
+
+				    var bDate = b.children[0].children[0].children[0].children[3].children[1].innerHTML.split("/");
+					var bEPOCH = new Date(bDate[2], bDate[1], bDate[0]).getTime() / 1000;
+
+				    var bord = +bEPOCH;
+				    compareResult = aord > bord;
+				}else if(sortBy.localeCompare("End")==0){
+					var aDate = a.children[0].children[0].children[0].children[4].children[1].innerHTML.split("/");
+					var aEPOCH = new Date(aDate[2], aDate[1], aDate[0]).getTime() / 1000;
+				    var aord = +aEPOCH;
+
+				    var bDate = b.children[0].children[0].children[0].children[4].children[1].innerHTML.split("/");
+					var bEPOCH = new Date(bDate[2], bDate[1], bDate[0]).getTime() / 1000;
+
+				    var bord = +bEPOCH;
+				    compareResult = aord > bord;
+				}
+			    return compareResult;
+			});
+			var tableBody = document.getElementById("resultTableBody");
+			while (tableBody.firstChild) {
+				tableBody.removeChild(tableBody.firstChild);
+			}
+			for(var i = 0, l = toSort.length; i < l; i++) {
+				tableBody.appendChild(toSort[i]);
+			}
+		}
+
+
+		function addToResult(message,entities) {
+			var filterBy="all";
+			if (document.getElementById('filterNat').checked) {
+				filterBy = document.getElementById('filterNat').value;
+				}
+			else if (document.getElementById('filterArt').checked) {
+				filterBy = document.getElementById('filterArt').value;
+				}
+			else if (document.getElementById('filterAll').checked) {
+				filterBy = document.getElementById('filterAll').value;
+				}
+
+			var dvTable = document.getElementById("dvTable");
+			dvTable.style.display = "inline";
+
+			//Create a HTML Table element.
+			var tableBody = document.getElementById("resultTableBody");
+			var tableRow = document.getElementById("resultTableRow");
+			var newRow = tableRow.cloneNode(true);
+
+			var utcStart = message.eventStart;
+			var utcEnd = message.eventEnd;
+			var dStart = new Date(0); // The 0 there is the key, which sets the date to the epoch
+			var dEnd = new Date(0); // The 0 there is the key, which sets the date to the epoch
+			dStart.setUTCSeconds(utcStart);
+			dEnd.setUTCSeconds(utcEnd);
+
+			newRow.style.display = "inline-table";
+			newRow.children[0].children[0].children[0].children[0].children[1].innerHTML = message.eventTitle.replace(/\b\w/g, l => l.toUpperCase());
+			newRow.children[0].children[0].children[0].children[1].children[1].innerHTML = message.eventType.replace(/\b\w/g, l => l.toUpperCase());
+			newRow.children[0].children[0].children[0].children[2].children[1].innerHTML = message.eventQuery.replace(/\b\w/g, l => l.toUpperCase());
+
+			newRow.children[0].children[0].children[0].children[3].children[1].innerHTML = dStart.toLocaleDateString();
+			newRow.children[0].children[0].children[0].children[4].children[1].innerHTML = dEnd.toLocaleDateString();
+			if(entities != null)newRow.children[0].children[0].children[0].children[5].children[1].innerHTML = entities;
+			newRow.children[0].children[0].children[0].children[6].children[1].children[0].setAttribute("href", message.eventDes);
+			newRow.children[0].children[0].children[0].children[6].children[1].children[0].innerHTML = message.eventDes;
+			newRow.children[0].children[0].children[0].children[7].children[1].children[0].setAttribute("href", "/eventDetails?eventId="+message.eventId+"");
+			newRow.children[0].children[0].children[0].children[7].children[1].children[0].innerHTML = "Go to Page";
+
+			//check filter
+			if(filterBy.localeCompare("natural")==0){
+				var acceptedTypes = "storm earthquake fire flood";
+				if(acceptedTypes.includes(message.eventType)){
+					tableBody.appendChild(newRow);
+				}
+
+			}else if(filterBy.localeCompare("artificial")==0){
+				var acceptedTypes = "accident shooting bombing";
+				if(acceptedTypes.includes(message.eventType)){
+					tableBody.appendChild(newRow);
+				}
+			}else if(filterBy.localeCompare("all")==0){
+				tableBody.appendChild(newRow);
+			}
+
+		}
+
+		function initalize() {
+
+			openWebSocketConnection();
+		}
+
+		var ws; // websocket to the backend
+
+		// ######################################################################################
+		// Top level control logic
+		// ######################################################################################
+
+		function openWebSocketConnection() {
+
+			var wsURL = document.getElementById("myBody")
+					.getAttribute("wsdata");
+
+			ws = new WebSocket(wsURL);
+			ws.onmessage = function(event) {
+				var message;
+				message = JSON.parse(event.data);
+				switch (message.messageType) {
+				case "init":
+					break;
+				case "statusMessage":
+					alert(message.status);
+					break;
+				case "queryResult": {
+					var val = JSON.parse(message["nodeData"]);
+					var entities = null;
+					if(message["entities"]!=null)
+						entities = JSON.parse(message["entities"]);
+
+					console.log(val);
+					console.log(entities);
+					addToResult(val,entities);
+				}
+					break;
+				default:
+					return console.log(message);
+				}
+			};
+			ws.onclose = function(event) {
+				// do nothing
+			};
+		}
+
+		function searchButtonPressed() {
+			var searchText = document.getElementById("searchText").value.toLowerCase();
+			var tableBody = document.getElementById("resultTableBody");
+			while (tableBody.firstChild) {
+				tableBody.removeChild(tableBody.firstChild);
+			}
+			ws.send(JSON.stringify({
+				messageType : "doSearch",
+				query : searchText
+			}));
+		}
+
+
+	</script>
+
+
+
+</body>
+<footer align="center">
+ © 2019 Developed by Nicky Vo at University Of Glasgow.
+</footer>
+
+</html>
